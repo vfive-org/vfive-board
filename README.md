@@ -13,7 +13,7 @@
  * FLASH	支持TF卡作为启动盘，预留SPI扩展
  * 以太网通信	支持VLAN的5网口千兆以太网(2个接口3个排针)
  * 无线通信	板载WIFI与蓝牙模块，支持softAP模式
- * 物联网通信	485串口*1
+ * 工业总线	RS485*1
  * 显示	支持HDMI输出，支持SPI输出
  * 音频	支持3.5mm的音频输入输出接口
  * 按键	GPIO按键*1
@@ -21,10 +21,10 @@
  * DEBUG	支持TTL串口调试，支持ADB USB调试
  * USB	USB HOST*1，USB UTG*1，USB 2.0协议
  * 80pin排针	含一个USB，3个千兆网口，SPI，ADDA和GPIO
- * 电源输入	Type-C USB 5V-2A
+ * 电源输入	Type-C USB 5V/2A
  * 板身大小	90*60mm
  * PCB工艺与层数	6层板
- * 操作系统	OpenV官方提供支持OpenWrt路由系统 支持Debian系统
+ * 操作系统	OpenV官方提供支持OpenWrt路由系统;支持Debian系统
 
 ## 电路板进度
     目前原理图和PCB设计已经完成，正在样板调试阶段。
